@@ -1,13 +1,20 @@
 @import "variables";
 
 body {
+    margin: 0;
+    padding: 0;
   background: url("/resources/ezera-White.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
 .landingPage{
-    width: 200px;
+    
+    width: 1980px;
     background-color: aliceblue;
+    h1{
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bodoni+Moda:opsz,wght@6..96,500&family=Caprasimo&family=Exo+2:wght@100&family=Kanit:ital,wght@0,600;1,300&family=Lilita+One&family=Montserrat:wght@700&family=Open+Sans&family=Oxygen:wght@700&family=Questrial&family=REM&family=Roboto:wght@700&family=Work+Sans:wght@500&display=swap');
+    }
 }
