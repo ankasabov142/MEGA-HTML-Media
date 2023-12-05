@@ -25,11 +25,26 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  min-height: 100vh;
-  background: #e3f2fd;
+
+#heading {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Jost', sans-serif;
+font-family: 'Lato', sans-serif;
+font-size: 30px;
+color: #113b1d;
 }
-body,
+
+
+#videoPlayer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container,
 .video-controls,
 .video-timer,
@@ -39,11 +54,13 @@ body,
   justify-content: center;
 }
 .container {
+  border: #1eb05b 3px solid;
   width: 98%;
   user-select: none;
   overflow: hidden;
   max-width: 900px;
   border-radius: 5px;
+
   background: #000;
   aspect-ratio: 16 / 9;
   position: relative;
@@ -102,7 +119,7 @@ body,
   width: 0%;
   height: 100%;
   position: relative;
-  background: #2289ff;
+  background: #1eb05b;
 }
 .progress-bar::before {
   content: "";
@@ -112,7 +129,7 @@ body,
   width: 13px;
   position: absolute;
   border-radius: 50%;
-  background: #2289ff;
+  background: #1eb05b;
   transform: translateY(-50%);
 }
 .progress-bar::before,
@@ -164,7 +181,7 @@ body,
   height: 4px;
   margin-left: 3px;
   max-width: 75px;
-  accent-color: #0078ff;
+  accent-color: #1eb05b;
 }
 .options .video-timer {
   color: #efefef;
@@ -221,6 +238,7 @@ body,
 }
 
 @media screen and (max-width: 540px) {
+  #videoPlayer{top: 70%;}
   .wrapper .video-controls {
     padding: 3px 10px 7px;
   }
@@ -263,4 +281,16 @@ body,
   .right .pic-in-pic {
     display: none;
   }
+}
+ 
+@media screen and (max-width: 840px) {
+  #videoPlayer{top: 80%;}
+}
+
+@media screen and (max-width: 1040px) {
+  #videoPlayer{top: 80%;}
+}
+
+@media screen and (max-width: 1340px) {
+  #videoPlayer{top: 70%;}
 }
