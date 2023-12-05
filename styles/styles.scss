@@ -26,19 +26,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#White-Dark{
-  margin-top:30px ;
-  margin-left:30px ;
-  button{
+#White-Dark {
+  margin-top: 30px;
+  margin-left: 30px;
+  button {
     background: none;
     border: none;
     cursor: pointer;
-    svg{
+    svg {
       width: 70px;
       height: 70px;
     }
   }
-  
 }
 #heading {
   position: absolute;
@@ -154,7 +153,7 @@ body {
   width: 13px;
   position: absolute;
   border-radius: 50%;
-  background: #1eb05b;
+  background: white;
   transform: translateY(-50%);
 }
 .progress-bar::before,
@@ -263,19 +262,18 @@ body {
 }
 
 @media screen and (max-width: 540px) {
-  #White-Dark{
-    margin-top:50px ;
-    margin-left:20px ;
-    button{
+  #White-Dark {
+    margin-top: 50px;
+    margin-left: 20px;
+    button {
       background: none;
       border: none;
       cursor: pointer;
-      svg{
+      svg {
         width: 60px;
         height: 60px;
       }
     }
-    
   }
   #videoPlayer {
     top: 70%;
@@ -288,7 +286,7 @@ body {
   #heading {
     margin-left: 100px;
     margin-top: 100px;
-    h1{
+    h1 {
       width: 300px;
     }
   }
@@ -341,7 +339,7 @@ body {
 @media screen and (max-width: 840px) {
   #videoPlayer {
   }
-  #heading{
+  #heading {
     width: 500px;
     left: 64%;
   }
@@ -354,11 +352,10 @@ body {
 
 @media screen and (max-width: 1040px) {
   #videoPlayer {
-margin-top: 25px;
+    margin-top: 25px;
     left: 48%;
-
   }
-  #heading{
+  #heading {
     width: 500px;
     left: 57%;
   }

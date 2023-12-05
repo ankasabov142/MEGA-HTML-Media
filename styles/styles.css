@@ -161,7 +161,7 @@ body {
   width: 13px;
   position: absolute;
   border-radius: 50%;
-  background: #1eb05b;
+  background: white;
   transform: translateY(-50%);
 }
 
